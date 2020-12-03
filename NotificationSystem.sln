@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Data", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Persistence", "NotificationSystem.Persistence\NotificationSystem.Persistence.csproj", "{9C48954B-6C60-471D-AF76-C1D67AB37A30}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.Service", "NotificationSystem.Service\NotificationSystem.Service.csproj", "{075A8610-708A-4537-B4DA-D85060E2CC93}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationSystem.ViewModel", "NotificationSystem.ViewModel\NotificationSystem.ViewModel.csproj", "{FD0FDEB5-9D93-4A7F-BCE7-CEF868A4FBD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{9C48954B-6C60-471D-AF76-C1D67AB37A30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C48954B-6C60-471D-AF76-C1D67AB37A30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C48954B-6C60-471D-AF76-C1D67AB37A30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{075A8610-708A-4537-B4DA-D85060E2CC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{075A8610-708A-4537-B4DA-D85060E2CC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{075A8610-708A-4537-B4DA-D85060E2CC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{075A8610-708A-4537-B4DA-D85060E2CC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD0FDEB5-9D93-4A7F-BCE7-CEF868A4FBD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD0FDEB5-9D93-4A7F-BCE7-CEF868A4FBD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD0FDEB5-9D93-4A7F-BCE7-CEF868A4FBD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD0FDEB5-9D93-4A7F-BCE7-CEF868A4FBD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
