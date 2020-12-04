@@ -4,10 +4,10 @@ using System.Text;
 
 namespace NotificationSystem.Core.Entities
 {
-    public class SMSAlert
+    public class NotificationEmailAlert
     {
         public long Id { get; set; }
-        public string MobileNo { get; set; }
+        public string Email { get; set; }
         public string Subject { get; set; }
         public string Message { get; set; }
         public string ReceiverName { get; set; }
