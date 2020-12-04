@@ -35,3 +35,8 @@ C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\No
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\NotificationSystem.API.pdb
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\NotificationSystem.API.genruntimeconfig.cache
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\NotificationSystem.API.csproj.CopyComplete
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationChannel\Index.cshtml.g.cs
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationEmailAlert\Index.cshtml.g.cs
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationSMSAlert\Index.cshtml.g.cs
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationTemplate\Index.cshtml.g.cs
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationType\Index.cshtml.g.cs
