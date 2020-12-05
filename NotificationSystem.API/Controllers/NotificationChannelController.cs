@@ -20,7 +20,7 @@ namespace NotificationSystem.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult PostNotification()
+        public IActionResult PostNotification([FromBody] )
         {
             return View();
         }

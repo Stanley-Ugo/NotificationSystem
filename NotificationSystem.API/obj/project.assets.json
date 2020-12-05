@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "NotificationSystem.ViewModel/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NotificationSystem.ViewModel.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NotificationSystem.ViewModel.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "NotificationSystem.ViewModel/1.0.0": {
+      "type": "project",
+      "path": "../NotificationSystem.ViewModel/NotificationSystem.ViewModel.csproj",
+      "msbuildProject": "../NotificationSystem.ViewModel/NotificationSystem.ViewModel.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "NotificationSystem.ViewModel >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\iamKosmic\\.nuget\\packages\\": {},
@@ -37,7 +56,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\NotificationSystem\\NotificationSystem.ViewModel\\NotificationSystem.ViewModel.csproj": {
+              "projectPath": "C:\\Projects\\NotificationSystem\\NotificationSystem.ViewModel\\NotificationSystem.ViewModel.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
