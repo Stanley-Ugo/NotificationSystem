@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using NotificationSystem.ViewModel.ViewModels.NotificationChannelVM;
 
 namespace NotificationSystem.API.Controllers
 {
@@ -20,7 +21,7 @@ namespace NotificationSystem.API.Controllers
         }
 
         [HttpPost]
-        public IActionResult PostNotification([FromBody] )
+        public IActionResult PostNotification([FromBody] NotificationChannelFormVM notificationChannelFormVM)
         {
             return View();
         }
