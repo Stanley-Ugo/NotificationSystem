@@ -43,3 +43,4 @@ C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Ra
 C:\Projects\NotificationSystem\NotificationSystem.API\bin\Debug\netcoreapp3.1\NotificationSystem.ViewModel.dll
 C:\Projects\NotificationSystem\NotificationSystem.API\bin\Debug\netcoreapp3.1\NotificationSystem.ViewModel.pdb
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationChannel\PostNotification.cshtml.g.cs
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationTemplate\PostNotification.cshtml.g.cs
