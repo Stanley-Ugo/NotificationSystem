@@ -8,19 +8,16 @@
 
         <div class="col-12 col-xl-12">
             <h2 class="card-title"><span style="font-size: 20px;"><strong>Notification Channel</strong></span></h2>
-            <br />
-            <a class="btn btn-primary" asp-controller="NotificationChannel" asp-action="PostNotification">Add Notification Channel</a>
-            <br />
             <div class="card">
                 <div class="card-header">
+                    <a class="btn btn-primary" asp-controller="NotificationChannel" asp-action="PostNotification">Add Notification Channel</a>
+                    <br />
                 </div>
                 <table class="table table-striped">
                     <thead>
                         <tr>
                             <th>Name</th>
                             <th>Description</th>
-                            <th>Date Created</th>
-                            <th>Created By</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
@@ -28,29 +25,26 @@
                         <tr>
                             <td>Jet Li</td>
                             <td>lorem ipson the description of the email notification is displayed</td>
-                            <td>05-12-20202 09:06AM</td>
-                            <td>System Administrator</td>
-                            <td> Edit | Delete</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>Mohammed Ali</td>
                             <td>lorem ipson the description of the email notification is displayed</td>
-                            <td>05-12-20202 09:06AM</td>
-                            <td>System Administrator</td>
-                            <td> Edit | Delete</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
                         </tr>
                         <tr>
                             <td>Bruce Lee</td>
                             <td>lorem ipson the description of the email notification is displayed</td>
-                            <td>05-12-20202 09:06AM</td>
-                            <td>System Administrator</td>
-                            <td> Edit | Delete</td>
-                        </tr>
-                        <tr>
-                            @*<td class="table-action">
-                            <a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
-                            <a href="#"><i class="align-middle" data-feather="trash"></i></a>
-                        </td>*@
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
