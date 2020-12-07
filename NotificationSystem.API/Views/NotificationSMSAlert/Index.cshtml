@@ -7,30 +7,53 @@
     <div class="row">
 
         <div class="col-12 col-xl-12">
+            <h2 class="card-title"><span style="font-size: 20px;"><strong>SMS Notification</strong></span></h2>
             <div class="card">
                 <div class="card-header">
-                    <h2 class="card-title"><span style="font-size: 23px;"><strong>SMS Notification</strong></span></h2>
+                    <a class="btn btn-primary" asp-controller="NotificationSMSAlert" asp-action="PostNotification">Add SMS Notification</a>
+                    <br />
                 </div>
                 <table class="table table-striped">
                     <thead>
                         <tr>
-                            <th>Mobile No</th>
+                            <th>Mobile No.</th>
                             <th>Subject</th>
                             <th>Message</th>
                             <th>Receiver Name</th>
-                            <th>Date Created</th>
-                            <th>Date Processed</th>
-                            <th>Created By</th>
                             <th>Actions</th>
                         </tr>
                     </thead>
                     <tbody>
 
                         <tr>
-                            @*<td class="table-action">
-                                    <a href="#"><i class="align-middle" data-feather="edit-2"></i></a>
-                                    <a href="#"><i class="align-middle" data-feather="trash"></i></a>
-                                </td>*@
+                            <td>+2347076379753</td>
+                            <td>Manager Role</td>
+                            <td>I wish to apply for the role of a System Analyst at your sweet reputable firm, please accept me!</td>
+                            <td>James Rodriguez</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>+2347076379753</td>
+                            <td>Internship Role</td>
+                            <td>I wish to apply for the role of a software developer at your sweet reputable firm, please accept me!</td>
+                            <td>Jason Vorhez</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>+2347076379753</td>
+                            <td>Branch Manager</td>
+                            <td>I wish to apply for the role of a software developer at your sweet reputable firm, please accept me!</td>
+                            <td>Jonny Bravo</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
                         </tr>
                     </tbody>
                 </table>
