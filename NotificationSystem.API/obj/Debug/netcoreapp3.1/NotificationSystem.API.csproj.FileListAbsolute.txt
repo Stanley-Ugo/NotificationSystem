@@ -46,3 +46,4 @@ C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Ra
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationTemplate\PostNotification.cshtml.g.cs
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationType\PostNotification.cshtml.g.cs
 C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationEmailAlert\PostNotification.cshtml.g.cs
+C:\Projects\NotificationSystem\NotificationSystem.API\obj\Debug\netcoreapp3.1\Razor\Views\NotificationSMSAlert\PostNotification.cshtml.g.cs
