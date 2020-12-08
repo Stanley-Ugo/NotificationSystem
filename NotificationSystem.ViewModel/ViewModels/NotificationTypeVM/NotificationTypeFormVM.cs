@@ -11,7 +11,7 @@ namespace NotificationSystem.ViewModel.ViewModels.NotificationTypeVM
 
         [Required]
         public string Name { get; set; }
-        public int Description { get; set; }
+        public string Description { get; set; }
         public DateTime DateCreated { get; set; }
         public string CreatedBy { get; set; }
     }

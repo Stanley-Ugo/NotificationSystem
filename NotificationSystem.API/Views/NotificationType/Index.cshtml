@@ -64,7 +64,26 @@
                         </tr>
                     </thead>
                     <tbody>
-
+                        <tr>
+                            <td>Jackie Chan</td>
+                            <td>lorem ipson the description of the email notification is displayed</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Toby Maguire</td>
+                            <td>lorem ipson the description of the email notification is displayed</td>
+                        </tr>
+                        <tr>
+                            <td>Hashirama Senju</td>
+                            <td>lorem ipson the description of the email notification is displayed</td>
+                            <td class="table-action">
+                                <a href="#"><i class="align-middle" style="color:blue" data-feather="edit-2"></i></a>
+                                <a href="#"><i class="align-middle" style="color:red" data-feather="trash"></i></a>
+                            </td>
+                        </tr>
                     </tbody>
                 </table>
 
@@ -87,8 +106,8 @@
                 { data: 'Description' },
                 {
                     data: 'Id',
-                    render: function (data, type, row, meta) {
-                        return "";
+                    render: function (data, type, notificationType, meta) {
+                        return "<a href='/NotificationType/edit/" + notificationType.id + "'></a>";
                     }
                 }
             ]
