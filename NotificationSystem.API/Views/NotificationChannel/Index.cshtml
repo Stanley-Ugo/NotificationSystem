@@ -19,7 +19,7 @@
                     <a class="btn btn-primary" asp-controller="NotificationChannel" asp-action="PostNotification">Add Notification Channel</a>
                     <br />
                 </div>
-                <table class="table table-striped table-bordered">
+                <table id="tblNotificationChannel" class="table table-striped table-bordered">
                     <thead>
                         <tr>
                             <th>Name</th>
@@ -63,6 +63,6 @@
 
 <script type="text/javascript">
     $(document).ready(function () {
-        $('#tblNotificationType').DataTable();
+        $('#tblNotificationChannel').DataTable();
     });
 </script>
