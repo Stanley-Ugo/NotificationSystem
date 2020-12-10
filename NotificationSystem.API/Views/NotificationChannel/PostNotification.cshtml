@@ -3,23 +3,80 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+<style>
+    label {
+        padding-bottom: 20px;
+    }
+
+    i {
+        position: absolute;
+        visibility: hidden;
+    }
+
+    .success input {
+        border-color: #2ecc71;
+    }
+
+    .error textarea {
+        border-color: #e74e3c;
+    }
+
+    .error input {
+        border-color: #e74e3c;
+    }
+
+    small {
+        margin-left: 20px;
+        visibility: hidden;
+    }
+
+    .success i.fa-check-circle {
+        color: #2ecc71;
+        visibility: visible;
+        margin-top: 6px
+    }
+
+    .error i.fa-exclamation-circle {
+        color: #e74e3c;
+        visibility: visible;
+        margin-top: 6px
+    }
+
+    .error small {
+        color: #e74e3c;
+        visibility: visible;
+    }
+
+    .success small {
+        color: #2ecc71;
+        visibility: visible;
+    }
+</style>
+
 <div class="col-12 col-xl-12">
     <h2 class="card-title mb-3"><span style="font-size: 20px;"><strong>Add Notification Channel</strong></span></h2>
     <div class="card">
         <div class="card-header">
         </div>
         <div class="card-body">
-            <form>
+            <form id="form">
                 <div class="mb-3 row">
                     <label class="col-form-label col-sm-2 text-sm-right">Name</label>
                     <div class="col-sm-10">
-                        <input type="text" class="form-control" placeholder="Full Name">
+                        <input type="text" class="form-control" placeholder="Full Name" id="name">
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error Message</small>
                     </div>
                 </div>
                 <div class="mb-3 row">
                     <label class="col-form-label col-sm-2 text-sm-right">Description</label>
                     <div class="col-sm-10">
-                        <textarea class="form-control" placeholder="Description" rows="3"></textarea>
+                        <textarea class="form-control" placeholder="Description" id="description" rows="3"></textarea>
+                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <small>Error Message</small>
                     </div>
                 </div>
                 <div class="mb-3 row">
@@ -31,3 +88,62 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    const form = document.getElementById('form');
+    const name = document.getElementById('name');
+    const description = document.getElementById('description');
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        checkInputs();
+    });
+
+    function checkInputs() {
+        //get the values from the inputs
+        const nameValue = name.value.trim();
+        const descriptionValue = description.value.trim();
+
+        if (nameValue == "") {
+            //show error and add erro class
+            setErrorFor(name, "Input Field Cannot Be Blank");
+        } else {
+            //show the success class
+            setSuccessFor(name, "Input Is Valid");
+        }
+
+        if (descriptionValue == "") {
+            //show error and add erro class
+            setErrorFor(description, "Input Field Cannot Be Blank");
+        } else {
+            //show the success class
+            setSuccessFor(description, "Input Is Valid");
+        }
+    }
+
+    function setErrorFor(input , message) {
+        const formControl = input.parentElement;
+        const grandParent = formControl.parentElement;
+        const small = formControl.querySelector('small');
+
+        //add error message inside small tag
+        small.innerText = message;
+
+        //add error class
+        grandParent.className = "mb-3 row error";
+    }
+
+    function setSuccessFor(input, message) {
+        const formControl = input.parentElement;
+        const grandParent = formControl.parentElement;
+        const small = formControl.querySelector('small');
+
+        //add success message inside small tag
+        small.innerText = message;
+
+        //add error class
+        grandParent.className = "mb-3 row success";
+    }
+
+</script>
