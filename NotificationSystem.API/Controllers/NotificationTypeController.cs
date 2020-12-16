@@ -11,18 +11,7 @@ namespace NotificationSystem.API.Controllers
     {
         public IActionResult Index()
         {
-            var model = new List<NotificationTypeFormVM>()
-            {
-                new NotificationTypeFormVM(){ Id = 1, Name = "Jonny Depp", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 2, Name = "Bella Bell", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 3, Name = "Count Duke", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 4, Name = "OBiwan Kenobi", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 5, Name = "Han Solo", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 6, Name = "William Depp", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 7, Name = "Edgar Alen Poe", Description = "lorem ipson the description of the email notification is displayed"},
-                new NotificationTypeFormVM(){ Id = 8, Name = "Davinci Leonardo", Description = "lorem ipson the description of the email notification is displayed"},
-            };
-            return View(model);
+            return View();
         }
 
         [HttpGet]
