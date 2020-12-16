@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NotificationSystem.ViewModel.ViewModels.NotificationSMSAlertVM;
 
+
 namespace NotificationSystem.API.Controllers
 {
     public class NotificationSMSAlertController : Controller
