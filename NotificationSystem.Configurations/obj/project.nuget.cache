@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "ua3U9F57AIMv4aTddQspHcrdbcJuwgBiLhAPtL4apD/P2iACiESwAqoeEsMo3Bsftl4wqld8LzC9u0Y/9Fux4g==",
+  "dgSpecHash": "wypfhQJXEnr5e7gjiF+IwkSWHt6hLYUL8jDYAzkzlMN6fCZc4eCu0xCL02811xzIg8VSgBujJXiKJzpcUkbwag==",
   "success": true,
   "projectFilePath": "C:\\Projects\\NotificationSystem\\NotificationSystem.Configurations\\NotificationSystem.Configurations.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,6 +1,7 @@
 C:\Projects\NotificationSystem\NotificationSystem.Persistence\bin\Debug\netcoreapp3.1\NotificationSystem.Persistence.deps.json
 C:\Projects\NotificationSystem\NotificationSystem.Persistence\bin\Debug\netcoreapp3.1\NotificationSystem.Persistence.dll
 C:\Projects\NotificationSystem\NotificationSystem.Persistence\bin\Debug\netcoreapp3.1\NotificationSystem.Persistence.pdb
+C:\Projects\NotificationSystem\NotificationSystem.Persistence\obj\Debug\netcoreapp3.1\NotificationSystem.Persistence.csprojAssemblyReference.cache
 C:\Projects\NotificationSystem\NotificationSystem.Persistence\obj\Debug\netcoreapp3.1\NotificationSystem.Persistence.AssemblyInfoInputs.cache
 C:\Projects\NotificationSystem\NotificationSystem.Persistence\obj\Debug\netcoreapp3.1\NotificationSystem.Persistence.AssemblyInfo.cs
 C:\Projects\NotificationSystem\NotificationSystem.Persistence\obj\Debug\netcoreapp3.1\NotificationSystem.Persistence.csproj.CoreCompileInputs.cache

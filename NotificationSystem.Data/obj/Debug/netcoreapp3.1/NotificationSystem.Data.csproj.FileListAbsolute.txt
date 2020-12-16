@@ -1,7 +1,6 @@
 C:\Projects\NotificationSystem\NotificationSystem.Data\bin\Debug\netcoreapp3.1\NotificationSystem.Data.deps.json
 C:\Projects\NotificationSystem\NotificationSystem.Data\bin\Debug\netcoreapp3.1\NotificationSystem.Data.dll
 C:\Projects\NotificationSystem\NotificationSystem.Data\bin\Debug\netcoreapp3.1\NotificationSystem.Data.pdb
-C:\Projects\NotificationSystem\NotificationSystem.Data\obj\Debug\netcoreapp3.1\NotificationSystem.Data.csprojAssemblyReference.cache
 C:\Projects\NotificationSystem\NotificationSystem.Data\obj\Debug\netcoreapp3.1\NotificationSystem.Data.AssemblyInfoInputs.cache
 C:\Projects\NotificationSystem\NotificationSystem.Data\obj\Debug\netcoreapp3.1\NotificationSystem.Data.AssemblyInfo.cs
 C:\Projects\NotificationSystem\NotificationSystem.Data\obj\Debug\netcoreapp3.1\NotificationSystem.Data.csproj.CoreCompileInputs.cache

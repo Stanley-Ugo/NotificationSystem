@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "gkfRBBJD+ooy0+8dUgUC+FbMXznAAcs41UxdfnYUuGeiqD4BlKDo60RqiaCREclZOs41RqDCGAsHZ+n0uZPtBQ==",
+  "dgSpecHash": "4RAl0JtwTEg7uTr50kp5fC4aLGwmm31C9TtmsZLysMw60bX7N3kd5oZSZ7udRAz3X3D3gPRZX4GT5l50femwoQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\NotificationSystem\\NotificationSystem.Persistence\\NotificationSystem.Persistence.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\iamKosmic\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512"
+  ],
   "logs": []
 }
