@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using NotificationSystem.ViewModel.ViewModels.NotificationTemplateVM;
 
+
 namespace NotificationSystem.API.Controllers
 {
     public class NotificationTemplateController : Controller
