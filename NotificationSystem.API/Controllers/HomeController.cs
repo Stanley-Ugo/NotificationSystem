@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using NotificationSystem.API.Models;
 
+
 namespace NotificationSystem.API.Controllers
 {
     public class HomeController : Controller
