@@ -15,12 +15,14 @@ namespace NotificationSystem.API.Controllers
             return View();
         }
 
+        //Get IActionResult
         [HttpGet]
         public IActionResult PostNotification()
         {
             return View();
         }
 
+        //Post Method
         [HttpPost]
         public IActionResult PostNotification([FromBody] NotificationTypeFormVM notificationTypeFormVM)
         {
