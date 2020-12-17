@@ -10,6 +10,7 @@ namespace NotificationSystem.API.Controllers
 {
     public class NotificationSMSAlertController : Controller
     {
+        //index View Page
         public IActionResult Index()
         {
             return View();
