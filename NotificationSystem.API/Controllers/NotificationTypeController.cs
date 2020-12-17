@@ -9,6 +9,7 @@ namespace NotificationSystem.API.Controllers
 {
     public class NotificationTypeController : Controller
     {
+        //Index View
         public IActionResult Index()
         {
             return View();
